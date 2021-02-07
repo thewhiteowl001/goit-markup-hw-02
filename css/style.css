@@ -1,0 +1,249 @@
+:root {
+    --mostly-used-color: #212121;
+    --second-level-color: #757575;
+    --third-level-color: #eaeaea;
+    --accent-color: #2196F3;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    color: var(--mostly-used-color);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo-style {
+    color: #2196F3;
+    letter-spacing: 0.03em;
+}
+
+.navi {
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.navi li.main-menu-item a {
+    color: var(--mostly-used-color);
+}
+
+.navi li.main-menu-item a:hover {
+    color: #2196F3;
+}
+
+.navi .main-menu-item.current {
+    color: var(--accent-color);
+}
+
+.current-use:current {
+    color: #2196F3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2196F3;
+}
+
+.button-works {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.033em;
+}
+
+.button-works {
+    background: #F5F4FA;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-works:hover {
+    background: #2196F3;
+    color: #ffffff;
+}
+
+h2 {
+    color: #000000;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.work-type {
+    color: var(--second-level-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.work-description {
+    color: var(--third-level-color);
+}
+
+.solutions {
+    color: var(--second-level-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.adv-header {
+    color: var(--mostly-used-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.adv-description {
+    color: var(--second-level-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.what-we-do {
+    color: var(--mostly-used-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.our-team-section {
+    background-color: #F5F4FA;
+}
+
+.our-team {
+    color: var(--mostly-used-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.team-member {
+    color: var(--mostly-used-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.team-member-job {
+    color: var(--second-level-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.email-link {
+    color: var(--second-level-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.tel-number {
+    color: var(--second-level-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+/* Слово "Studio" должно быть белым, но не будет видно без фона*/
+.logo-bottom {
+    color: #eaeaea;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo-bottom-style {
+    color: #2196F3;
+}
+
+.address-bottom {
+    font-style: normal;
+    color: #ffffff;
+}
+
+.email-link-bottom {
+    color: var(--second-level-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.tel-number-bottom {
+    color: var(--second-level-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.footer-text {
+    text-transform: uppercase;
+}
+
+.footer-settings {
+    background-color: #2F303A;
+}
+
